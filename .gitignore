@@ -1,0 +1,21 @@
+# Local environments and Python caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Operating-system and plotting caches
+.DS_Store
+output/.cache/
+output/.mpl_cache/
+
+# Downloaded source data and generated model artifacts
+doc/adult24.csv
+output/cleaning_output/
+output/split_output/
+output/tuning_output/*_search_details.csv
+output/test_set_output/*.joblib
+
+# Archived experiments are kept locally, outside the final workflow
+legacy/
+output/z_legacy_results/

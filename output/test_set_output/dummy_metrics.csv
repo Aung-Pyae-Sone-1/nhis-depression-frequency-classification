@@ -1,0 +1,2 @@
+model,macro_f1,balanced_accuracy,accuracy,macro_precision,macro_recall
+DummyMostFrequent,0.1382303132938188,0.2,0.5280608119036067,0.10561216238072133,0.2

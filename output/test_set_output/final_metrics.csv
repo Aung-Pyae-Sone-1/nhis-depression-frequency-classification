@@ -1,0 +1,2 @@
+model,macro_f1,balanced_accuracy,accuracy,macro_precision,macro_recall
+CatBoostClassifier,0.45156756606740106,0.47643300269984523,0.6048843603428756,0.4412651259389424,0.47643300269984523

@@ -1,0 +1,6 @@
+model,training_cv_macro_f1,best_parameters
+LogisticRegression,0.4376603431685388,"{'model__C': 0.1, 'model__class_weight': 'balanced'}"
+RandomForestClassifier,0.44315268491357557,"{'model__class_weight': 'balanced_subsample', 'model__max_depth': 12}"
+HistGradientBoostingClassifier,0.432210206495204,"{'model__class_weight': 'balanced', 'model__max_leaf_nodes': 31}"
+XGBClassifier,0.45234941622672986,"{'model__learning_rate': 0.1, 'model__max_depth': 2, 'model__n_estimators': 400, 'model__weight_mode': 'sqrt'}"
+CatBoostClassifier,0.4547116833669224,"{'model__depth': 3, 'model__iterations': 300, 'model__learning_rate': 0.1, 'model__weight_mode': 'sqrt'}"
